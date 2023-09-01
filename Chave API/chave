@@ -1,0 +1,15 @@
+SITE: https://api.openweathermap.org/data/2.5/weather?q=Sao%20Luis&appid=d97a63981b979a167d9bd834c6e791aa
+CHAVE: d97a63981b979a167d9bd834c6e791aa
+
+
+css
+body::before{
+    contant: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
